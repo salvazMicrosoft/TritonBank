@@ -71,7 +71,7 @@ void TritonBankAudioProcessorEditor::paint (juce::Graphics& g)
 
 void TritonBankAudioProcessorEditor::resized()
 {
-    // Cuando cambia la pantalla aqui
+    // quiero saber si lo modifica
     sliderBankMSB.setValue(audioProcessor.bankMSB);
     sliderBankLSB.setValue(audioProcessor.bankLSB);
     sliderBankMSB.setBounds(40, 30, 80, 160);
